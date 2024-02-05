@@ -12,7 +12,7 @@ import Col from "react-bootstrap/Col";
 import { useRPCWallet } from "./useRPCWallet";
 import { Tab, Tabs } from "react-bootstrap";
 import Lottery from "./components/Lottery";
-import XSWDConnect from "./components/xswdconnect";
+import XSWDConnect from "./components/XSWDConnect";
 
 function App() {
   const [state, setState] = useContext(LoginContext);
